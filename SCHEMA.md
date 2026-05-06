@@ -13,8 +13,8 @@ When coordinating multiple primitives, the tape is partitioned into functional z
 
 | Region | Relative Offset | Purpose |
 | :--- | :--- | :--- |
-| **Static Constants** | /bin/sh 	o C$ | Fixed values used across the program. |
-| **Global State** | +1 	o G$ | Long-term variables and system flags. |
+| **Static Constants** | -10 o -1 | Fixed values used across the program. |
+| **Global State** | +3 o +10 | Long-term variables and system flags. |
 | **Local Stack** | Dynamic | Transient data frames for composite functions. |
 | **I/O Buffer** | End of Tape | Staging area for characters and streams. |
 
